@@ -13,7 +13,7 @@ const LandingPage = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-ink-800 border border-ink-700 rounded-full px-4 py-1.5 mb-8 animate-fade-in">
             <span className="w-1.5 h-1.5 bg-accent rounded-full" />
-            <span className="text-xs font-mono text-ink-400">reqres.in API Integration</span>
+            <span className="text-xs font-mono text-ink-400">Bea Cukai Balikpapan</span>
           </div>
 
           <h1 className="font-display font-bold text-5xl sm:text-6xl md:text-7xl text-ink-50 leading-[1.05] tracking-tight mb-6 animate-fade-in stagger-1">
@@ -43,29 +43,18 @@ const LandingPage = () => {
             )}
           </div>
 
-          {/* Features */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-16 animate-fade-in stagger-4">
-            {[
-              { icon: "🔐", label: "Auth", desc: "Register & Login" },
-              { icon: "👥", label: "Users", desc: "List & Detail" },
-              { icon: "⚡", label: "Fast", desc: "React + TypeScript" },
-            ].map((f) => (
-              <div key={f.label} className="card p-4 text-center hover:border-ink-600 transition-colors duration-200">
-                <div className="text-2xl mb-2">{f.icon}</div>
-                <div className="font-display font-semibold text-ink-200 text-sm">{f.label}</div>
-                <div className="text-xs text-ink-500 mt-0.5">{f.desc}</div>
-              </div>
-            ))}
-          </div>
+    
+          
+        
         </div>
       </main>
 
       {/* Footer */}
       <footer className="border-t border-ink-800 py-5">
         <p className="text-center text-xs text-ink-600 font-mono">
-          powered by{" "}
+          Created by{" "}
           <a href="https://reqres.in" target="_blank" rel="noreferrer" className="text-ink-400 hover:text-accent transition-colors">
-            reqres.in
+            Condro Agung
           </a>
         </p>
       </footer>

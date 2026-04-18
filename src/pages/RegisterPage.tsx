@@ -133,7 +133,7 @@ const RegisterPage = () => {
 
         {/* Hint */}
         <p className="text-center text-xs text-ink-600 mt-4 font-mono">
-          Try: eve.holt@reqres.in / cityslicka
+      
         </p>
       </div>
     </div>
