@@ -51,7 +51,7 @@ const RegisterPage = () => {
           <p className="text-ink-500 text-sm mt-2">
             Use a{" "}
             <a href="https://reqres.in" target="_blank" rel="noreferrer" className="text-accent hover:underline">
-              reqres.in
+              Bea Cukai Balikpapan
             </a>{" "}
             registered email
           </p>
@@ -68,7 +68,7 @@ const RegisterPage = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="eve.holt@reqres.in"
+                placeholder="type email here"
                 className="input-field"
                 autoComplete="email"
               />

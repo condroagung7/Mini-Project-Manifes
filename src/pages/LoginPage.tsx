@@ -65,7 +65,7 @@ const LoginPage = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="eve.holt@reqres.in"
+                placeholder="type username"
                 className="input-field"
                 autoComplete="email"
               />
